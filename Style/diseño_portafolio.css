@@ -1,0 +1,397 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    color: #fff;
+}
+body
+{
+    background:rgb(1, 126, 180);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+main
+{
+    /* background: linear-gradient(rgb(5, 47, 94), rgb(0, 4, 31)); */
+    background:#053966;
+
+}
+h1, h2, h3, h4
+{
+    margin-bottom: 10px;
+}
+.bold
+{
+    font-weight: bold;
+}
+.big_h2
+{
+    font-size: 32px;
+}
+.center
+{
+    text-align: center;
+    justify-self: center;
+    margin: auto;
+}
+.CTA
+{
+    width: 80%;
+}
+
+.CTA__btn
+{
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(#e7e7e7 50%, #64b9ff);
+    color: #000;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 50;
+    transition: box-shadow 0.5s;
+}
+.CTA__btn:hover
+{
+    box-shadow: 5px 5px 10px #000;
+}
+.CTA__btn:active
+{
+    background: linear-gradient(#cacaca 50%, #2a8fe2);
+}
+.CTA__btn2
+{
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to right, #ee20d6, #0a2fb6);
+    color: #000;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    border: 1px solid #000;
+    transition: box-shadow 0.5s;
+}
+.CTA__btn2:hover
+{
+    box-shadow: 5px 5px 10px #000;
+}
+.espaciador1
+{
+    height: 100px;
+    width: 100%;
+
+}
+.espaciador2
+{
+    height: 80px;
+    width: 100%;
+}
+.espaciador3
+{
+    height: 60px;
+    width: 100%;
+}
+.espaciador4
+{
+    height: 40px;
+    width: 100%;
+}
+.espaciador5
+{
+    height: 20px;
+    width: 100%;
+}
+.icon
+{
+    width: 25px;
+    height: 25px;
+}
+.mid-icon
+{
+    width: 40px;
+    height: 40px;  
+}
+.big-icon
+{
+    width: 70px;
+    height: 70px;
+}
+.contenido80
+{
+    width: 80%;
+    margin: auto;
+}
+
+
+.nav__bar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    min-height: 50px;
+}
+.logo-header a
+{
+    text-decoration: none;
+    top: 30px;
+}
+.nav_logo
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: linear-gradient(330deg, #0000ecb9, #f83bbbb9) ;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.logo-header img{
+    width: 50px;
+}
+.logo-header h2
+{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: 50px;
+    align-self: center;
+}
+.nav-menu
+{
+    display: flex;
+    right: 5%;
+    top: 30px;
+    align-items: center;
+    align-content: center;
+    
+}
+.ico__section
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    
+}
+.nav-menu li{
+    margin: 1rem;
+    list-style: none;
+
+}
+.nav-menu a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    outline: 1px solid #ffffff00;
+    transition: background, outline, .5s;
+    border-radius: 5px;
+    max-width: min-content;
+    justify-content: center;
+    padding-left: 15px;
+}
+.nav-menu a:hover
+{
+    background: #9bd2ff66;
+    outline: 1px solid #9bd2ffb3;
+    transition: all .5s;
+}
+.menu-icon img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.menu-icon, #check{
+    display: none;
+}
+
+@media (max-width:991px){
+    .checkbtn{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .nav_logo
+    {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        cursor: pointer;
+        z-index: 200;
+    }
+    .ico__section
+    {
+        margin-top: 30px;
+    }
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        padding-top: 80px;
+        top: -20px;
+        transform: translateX(-100%);
+        width: 101%;
+        height: 100%;
+        z-index: 100;
+        right: 0;
+        background-image: url(img/Fondos/fondo-logo.png);
+        background-size: cover;
+    }
+    .nav-menu a
+    {
+        display: block;
+        margin: auto;
+        padding: 0;
+    }
+    .nav__inicio, .nav__nosotros, .nav__servicios, .nav__contactos
+    {
+        display: none;
+    }
+
+    .nav-menu ul li{
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-menu ul li:last-child{
+        background: none;
+        padding: 1rem;
+    }
+    #check:checked ~ ul{
+        transform: translateX(0);
+        transition: all .5s;
+    }
+
+}
+
+
+.Change
+{
+    background: #16026b;
+}
+.portafolio
+{
+    background: #0d0144;
+}
+.diseño_container
+{
+    justify-content: center;
+    padding: 0 10%;
+}
+.diseño_container--titulo
+{
+    text-align: center;
+    margin: 0 auto 18px;
+
+}
+.contenido__flexible
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex__container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 95%;
+    flex-wrap: wrap;
+}
+.portafolio__diseño
+{
+    margin: 0 15px;
+}
+.imagenes1
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background:linear-gradient(120deg, #c165dd, #5c27fe);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+.imagenes1:hover
+{
+    transform: scale(1.05);
+}
+.img__container
+{
+    width: 250px;
+    height: 170px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+.portafolio__img
+{
+    width: 300px;
+    height: 140px;
+    margin: 30px 0 0 25px;
+    border-radius: 10px;
+    transform: translateX(50%);
+    transition: 0.5s;
+    animation: slide ease infinite 10s;
+}
+.img__titulo
+{
+    margin-top: 0;
+    width: 100%;
+}
+.botones__container
+{
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+@keyframes slide 
+{
+    0% 
+    {
+        transform: translateX(50%);
+
+    }    
+    25%
+    {
+        transform: translateX(-60%);
+    }
+    50%
+    {
+        transform: translateX(-60%);
+    }
+    75%
+    {
+        transform: translateX(50%);
+    }
+    100%
+    {
+        transform: translateX(50%);
+    }
+}

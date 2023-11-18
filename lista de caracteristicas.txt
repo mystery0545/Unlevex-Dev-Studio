@@ -1,0 +1,34 @@
+<li>Productos Actualizados</li>
+<li>Diseño Intuitivo</li>
+<li>Adaptable a Moviles</li>
+<li>Autogestionable</li>
+<li>Dinamismo</li>
+<li>Seguridad</li>
+<li>Registro de Usuarios</li>
+<li>Carrito de Compras</li>
+<li>Gestion de Domicilios</li>
+<li>Soporte</li>
+
+
+<li>Diseño Moderno</li>
+<li>Adaptable a Moviles</li>
+<li>Autogestionable</li>
+<li>Profecionalidad</li>
+<li>Productos y Servicios</li>
+<li>Seccion de Trabajos</li>
+<li>Interactividad</li>
+<li>Datos de Contacto</li>
+<li>Redes Sociales</li>
+<li>Gestion de Citas</li>
+
+
+<li>Diseño Intuitivo</li>
+<li>Adaptable a Moviles</li>
+<li>Autogestionable</li>
+<li>Informacion Detallada</li>
+<li>Recursos Audiovisuales</li>
+<li>Ubicacion en el Mapa</li>
+<li>Contactos</li>
+<li>Redes Sociales</li>
+<li>Gestion de Domicilios</li>
+<li>Soporte</li>
